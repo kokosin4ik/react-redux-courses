@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 
 import './item-details.css';
 import SwapiService from "../../services/swapi-service";
-import ErrorButton from "../error-button/error-button";
+import ErrorButton from "../error-button";
 
 
 const Record = ({item, field, label}) => {
@@ -19,9 +19,6 @@ export {
 };
 
 export default class ItemDetails extends Component {
-  
-  swapiService = new SwapiService();
-  
   state = {
     item: null,
     image: null

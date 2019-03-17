@@ -3,7 +3,7 @@ import {
   PlanetList,
   PlanetDetails
 } from "../sw-components";
-import Row from "../row/row";
+import Row from "../row";
 
 export default class PlanetsPage extends Component {
   
